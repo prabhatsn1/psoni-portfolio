@@ -23,7 +23,7 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="mx-auto max-w-7xl px-6 pb-20">
           <AnimatedSection>
-            <p className="mb-4 text-sm font-medium uppercase tracking-widest text-indigo-400">
+            <p className="mb-4 text-sm font-medium tracking-widest text-indigo-400 uppercase">
               About Me
             </p>
             <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white md:text-6xl">
@@ -43,7 +43,7 @@ export default function AboutPage() {
 
             <AnimatedSection className="lg:col-span-2" delay={0.2}>
               <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-8">
-                <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-300">
+                <h3 className="mb-4 text-sm font-semibold tracking-wider text-zinc-300 uppercase">
                   Quick Facts
                 </h3>
                 <dl className="space-y-3 text-sm">

@@ -43,7 +43,7 @@ export default function ContactForm() {
                 name="name"
                 type="text"
                 required
-                className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
+                className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 transition-colors outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
                 placeholder="John Doe"
               />
             </div>
@@ -59,7 +59,7 @@ export default function ContactForm() {
                 name="email"
                 type="email"
                 required
-                className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
+                className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 transition-colors outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
                 placeholder="john@example.com"
               />
             </div>
@@ -77,7 +77,7 @@ export default function ContactForm() {
               name="subject"
               type="text"
               required
-              className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
+              className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 transition-colors outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
               placeholder="Project inquiry"
             />
           </div>
@@ -92,7 +92,7 @@ export default function ContactForm() {
             <select
               id="budget"
               name="budget"
-              className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
+              className="w-full rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white transition-colors outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
             >
               <option value="">Select a range</option>
               <option value="5k-10k">$5K – $10K</option>
@@ -114,7 +114,7 @@ export default function ContactForm() {
               name="message"
               required
               rows={5}
-              className="w-full resize-none rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
+              className="w-full resize-none rounded-xl border border-white/10 bg-zinc-900/50 px-4 py-3 text-sm text-white placeholder-zinc-600 transition-colors outline-none focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/25"
               placeholder="Tell me about your project..."
             />
           </div>

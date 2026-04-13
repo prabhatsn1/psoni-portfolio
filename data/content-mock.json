@@ -23,10 +23,22 @@
       "Beyond my day job, I'm passionate about building side projects that push my skills — from language translation apps powered by AI to real-time video communication platforms. I also have a background in mentoring, having served as a Teaching Assistant at Coding Ninja."
     ],
     "values": [
-      { "title": "Scalability First", "description": "I architect solutions that grow with your users. Performance and scalability are built in from day one, not bolted on later." },
-      { "title": "Clean Code Advocate", "description": "Readable, maintainable, and well-tested code matters. I reduce technical debt, not add to it." },
-      { "title": "End-to-End Ownership", "description": "From frontend UI to cloud deployment, I own the full lifecycle of what I build — debugging, troubleshooting, and optimization included." },
-      { "title": "Continuous Learning", "description": "Certified in Azure Fundamentals, trained in ethical hacking, and always exploring new technologies to deliver the best solutions." }
+      {
+        "title": "Scalability First",
+        "description": "I architect solutions that grow with your users. Performance and scalability are built in from day one, not bolted on later."
+      },
+      {
+        "title": "Clean Code Advocate",
+        "description": "Readable, maintainable, and well-tested code matters. I reduce technical debt, not add to it."
+      },
+      {
+        "title": "End-to-End Ownership",
+        "description": "From frontend UI to cloud deployment, I own the full lifecycle of what I build — debugging, troubleshooting, and optimization included."
+      },
+      {
+        "title": "Continuous Learning",
+        "description": "Certified in Azure Fundamentals, trained in ethical hacking, and always exploring new technologies to deliver the best solutions."
+      }
     ],
     "workingStyle": [
       "I thrive in Agile environments with clear sprint cycles",
@@ -45,13 +57,21 @@
     { "name": "Expo", "category": "mobile", "proficiency": 82 },
     { "name": "Node.js", "category": "backend", "proficiency": 82 },
     { "name": "Python", "category": "backend", "proficiency": 78 },
-    { "name": "SQL (PostgreSQL, MySQL)", "category": "backend", "proficiency": 85 },
+    {
+      "name": "SQL (PostgreSQL, MySQL)",
+      "category": "backend",
+      "proficiency": 85
+    },
     { "name": "MongoDB", "category": "backend", "proficiency": 78 },
     { "name": "Azure Cloud", "category": "devops", "proficiency": 85 },
     { "name": "Azure Function Apps", "category": "devops", "proficiency": 82 },
     { "name": "Vercel", "category": "devops", "proficiency": 80 },
     { "name": "Git / GitHub", "category": "tools", "proficiency": 92 },
-    { "name": "Debugging & Troubleshooting", "category": "tools", "proficiency": 90 },
+    {
+      "name": "Debugging & Troubleshooting",
+      "category": "tools",
+      "proficiency": 90
+    },
     { "name": "C# / Unity", "category": "tools", "proficiency": 65 }
   ],
   "services": [
@@ -151,9 +171,19 @@
       "shortDescription": "Full-featured React Native expense sharing app with offline-first architecture and OCR receipt scanning",
       "description": "A comprehensive expense sharing mobile application built with React Native and Expo, featuring offline-first architecture, OCR receipt scanning, multi-currency support, debt simplification, analytics dashboards, and biometric authentication. Uses MongoDB for backend storage with automatic sync queue for offline mutations.",
       "category": "Mobile App",
-      "tech": ["React Native", "Expo", "TypeScript", "MongoDB", "AsyncStorage", "OCR"],
+      "tech": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "MongoDB",
+        "AsyncStorage",
+        "OCR"
+      ],
       "thumbnail": "/images/projects/splitwise-thumb.jpg",
-      "images": ["/images/projects/splitwise-1.jpg", "/images/projects/splitwise-2.jpg"],
+      "images": [
+        "/images/projects/splitwise-1.jpg",
+        "/images/projects/splitwise-2.jpg"
+      ],
       "repoUrl": "https://github.com/prabhatsn1/splitwise",
       "featured": true,
       "caseStudy": {
@@ -181,9 +211,19 @@
       "shortDescription": "Offline-first voice notes app with AI summarization and spaced-repetition flashcards",
       "description": "An offline-first voice notes application built with React Native and Expo SDK 54. Features live transcription, AI-powered summarization (offline NLP + Google Gemini), auto-generated flashcards with SM-2 spaced repetition, and multi-language speech-to-text support.",
       "category": "Mobile App",
-      "tech": ["React Native", "Expo", "TypeScript", "Zustand", "SQLite", "Google Gemini"],
+      "tech": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Zustand",
+        "SQLite",
+        "Google Gemini"
+      ],
       "thumbnail": "/images/projects/notegenius-thumb.jpg",
-      "images": ["/images/projects/notegenius-1.jpg", "/images/projects/notegenius-2.jpg"],
+      "images": [
+        "/images/projects/notegenius-1.jpg",
+        "/images/projects/notegenius-2.jpg"
+      ],
       "repoUrl": "https://github.com/prabhatsn1/NoteGenius",
       "featured": true,
       "caseStudy": {
@@ -211,9 +251,19 @@
       "shortDescription": "Upload PDFs and chat with them using AI — answers grounded in your documents with citations",
       "description": "A full-stack Next.js application for uploading PDF documents and chatting with them using Google Gemini AI. Features semantic vector search, smart text chunking, streaming responses, and citation references to specific pages and chunks.",
       "category": "Web App",
-      "tech": ["Next.js", "TypeScript", "Google Gemini", "Pinecone", "Tailwind CSS", "Vitest"],
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Google Gemini",
+        "Pinecone",
+        "Tailwind CSS",
+        "Vitest"
+      ],
       "thumbnail": "/images/projects/pdfrag-thumb.jpg",
-      "images": ["/images/projects/pdfrag-1.jpg", "/images/projects/pdfrag-2.jpg"],
+      "images": [
+        "/images/projects/pdfrag-1.jpg",
+        "/images/projects/pdfrag-2.jpg"
+      ],
       "liveUrl": "https://pdf-rag-five-omega.vercel.app",
       "repoUrl": "https://github.com/prabhatsn1/pdf_rag",
       "featured": true,
@@ -242,9 +292,19 @@
       "shortDescription": "Production-ready real estate website with 3D hero, Supabase auth, and property listings",
       "description": "A production-ready real estate agency website built with Next.js 16 App Router, MUI v7, Framer Motion, and React Three Fiber. Features interactive 3D hero scene, property listings with filters, agent profiles, Supabase authentication, and favourites system.",
       "category": "Web App",
-      "tech": ["Next.js 16", "MUI v7", "Framer Motion", "React Three Fiber", "Supabase", "Zod"],
+      "tech": [
+        "Next.js 16",
+        "MUI v7",
+        "Framer Motion",
+        "React Three Fiber",
+        "Supabase",
+        "Zod"
+      ],
       "thumbnail": "/images/projects/realty-thumb.jpg",
-      "images": ["/images/projects/realty-1.jpg", "/images/projects/realty-2.jpg"],
+      "images": [
+        "/images/projects/realty-1.jpg",
+        "/images/projects/realty-2.jpg"
+      ],
       "liveUrl": "https://real-state-psoni.vercel.app",
       "repoUrl": "https://github.com/prabhatsn1/real_state_webapp",
       "featured": true,
@@ -273,9 +333,19 @@
       "shortDescription": "Language translation app with Azure, OpenAI, Clerk auth, and MongoDB history",
       "description": "A language translation application replicating core Google Translate functionalities. Built with Next.js, integrating Microsoft Azure for cloud infrastructure, Clerk for user authentication, MongoDB with Mongoose for translation history, and OpenAI for enhanced translation accuracy.",
       "category": "Web App",
-      "tech": ["Next.js", "Microsoft Azure", "Clerk", "MongoDB", "Mongoose", "OpenAI API"],
+      "tech": [
+        "Next.js",
+        "Microsoft Azure",
+        "Clerk",
+        "MongoDB",
+        "Mongoose",
+        "OpenAI API"
+      ],
       "thumbnail": "/images/projects/translator-thumb.jpg",
-      "images": ["/images/projects/translator-1.jpg", "/images/projects/translator-2.jpg"],
+      "images": [
+        "/images/projects/translator-1.jpg",
+        "/images/projects/translator-2.jpg"
+      ],
       "liveUrl": "https://google-translate-clone-psoni.vercel.app",
       "repoUrl": "https://github.com/prabhatsn1/google-translate-clone",
       "featured": true,
@@ -305,7 +375,10 @@
       "category": "Web App",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
       "thumbnail": "/images/projects/kashya-thumb.jpg",
-      "images": ["/images/projects/kashya-1.jpg", "/images/projects/kashya-2.jpg"],
+      "images": [
+        "/images/projects/kashya-1.jpg",
+        "/images/projects/kashya-2.jpg"
+      ],
       "liveUrl": "https://kashya.vercel.app",
       "repoUrl": "https://github.com/prabhatsn1/kashya",
       "featured": true
@@ -336,19 +409,6 @@
       "featured": false
     },
     {
-      "slug": "design-studio",
-      "title": "Design Studio",
-      "shortDescription": "Creative design studio portfolio with interactive motifs and theme switching",
-      "description": "A design studio portfolio website built with Next.js featuring interactive motif components, theme switching (light/dark), and modern UI design. Deployed on Vercel.",
-      "category": "Web App",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
-      "thumbnail": "/images/projects/studio-thumb.jpg",
-      "images": ["/images/projects/studio-1.jpg"],
-      "liveUrl": "https://design-studio-six.vercel.app",
-      "repoUrl": "https://github.com/prabhatsn1/Design-Studio",
-      "featured": false
-    },
-    {
       "slug": "storyteller-ai",
       "title": "Storyteller AI",
       "shortDescription": "AI-powered storytelling platform built with Next.js and ShadCN UI",
@@ -368,7 +428,10 @@
       "category": "Web App",
       "tech": ["React", "TypeScript", "Azure", "SQL", "Node.js"],
       "thumbnail": "/images/projects/enterprise-thumb.jpg",
-      "images": ["/images/projects/enterprise-1.jpg", "/images/projects/enterprise-2.jpg"],
+      "images": [
+        "/images/projects/enterprise-1.jpg",
+        "/images/projects/enterprise-2.jpg"
+      ],
       "featured": false,
       "caseStudy": {
         "problem": "Legacy healthcare application suffered from poor performance, high technical debt, and difficulty in onboarding new developers due to outdated architecture.",
@@ -405,7 +468,7 @@
   "testimonials": [
     {
       "id": "t1",
-      "name": "Rajesh Kumar",
+      "name": "Aparajita Patro",
       "role": "Engineering Manager",
       "company": "Optum Global Solutions",
       "avatar": "/images/testimonials/rajesh.jpg",
@@ -415,22 +478,14 @@
     },
     {
       "id": "t2",
-      "name": "Ananya Sharma",
+      "name": "Saurabh Sharma",
       "role": "Tech Lead",
       "company": "Optum Global Solutions",
       "avatar": "/images/testimonials/ananya.jpg",
       "quote": "Working with Prabhat was a great experience. He brought strong TypeScript and React skills to the team, and his debugging abilities saved us significant time on complex issues. A reliable and skilled engineer.",
       "rating": 5
     },
-    {
-      "id": "t3",
-      "name": "Vikram Patel",
-      "role": "Senior Developer",
-      "company": "Principal Global Services",
-      "avatar": "/images/testimonials/vikram.jpg",
-      "quote": "Even as an intern, Prabhat showed remarkable initiative. He quickly grasped complex problems, contributed meaningful solutions, and actively participated in technical workshops. Clearly someone with strong growth potential.",
-      "rating": 5
-    },
+
     {
       "id": "t4",
       "name": "Neha Gupta",
@@ -442,7 +497,7 @@
     },
     {
       "id": "t5",
-      "name": "Amit Verma",
+      "name": "Anvesh",
       "role": "Product Owner",
       "company": "Optum Global Solutions",
       "avatar": "/images/testimonials/amit.jpg",
@@ -584,8 +639,20 @@
     }
   ],
   "social": [
-    { "platform": "GitHub", "url": "https://github.com/prabhatsn1", "icon": "github" },
-    { "platform": "LinkedIn", "url": "https://linkedin.com/in/prabhatsn1", "icon": "linkedin" },
-    { "platform": "Portfolio", "url": "https://portfolio-psoni.vercel.app", "icon": "globe" }
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/prabhatsn1",
+      "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/prabhatsn1",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Portfolio",
+      "url": "https://portfolio-psoni.vercel.app",
+      "icon": "globe"
+    }
   ]
 }

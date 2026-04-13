@@ -38,7 +38,11 @@ export default function FeaturedProjects({ projects }: Props) {
                   {/* Thumbnail placeholder */}
                   <div className="mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br from-indigo-500/20 to-purple-500/20">
                     <div className="flex h-full items-center justify-center text-4xl">
-                      {project.category === "Mobile App" ? "📱" : project.category === "SaaS" ? "☁️" : "🖥️"}
+                      {project.category === "Mobile App"
+                        ? "📱"
+                        : project.category === "SaaS"
+                          ? "☁️"
+                          : "🖥️"}
                     </div>
                   </div>
 

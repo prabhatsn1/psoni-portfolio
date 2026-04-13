@@ -18,7 +18,7 @@ export default function ContactPage() {
       <div className="pt-32 pb-32">
         <section className="mx-auto max-w-7xl px-6">
           <AnimatedSection>
-            <p className="mb-4 text-sm font-medium uppercase tracking-widest text-indigo-400">
+            <p className="mb-4 text-sm font-medium tracking-widest text-indigo-400 uppercase">
               Contact
             </p>
             <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white md:text-6xl">
@@ -40,7 +40,7 @@ export default function ContactPage() {
             <AnimatedSection className="lg:col-span-2" delay={0.2}>
               <div className="space-y-8">
                 <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-8">
-                  <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-300">
+                  <h3 className="mb-4 text-sm font-semibold tracking-wider text-zinc-300 uppercase">
                     Contact Info
                   </h3>
                   <dl className="space-y-4 text-sm">
@@ -64,7 +64,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-8">
-                  <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-300">
+                  <h3 className="mb-4 text-sm font-semibold tracking-wider text-zinc-300 uppercase">
                     Social
                   </h3>
                   <ul className="space-y-3">

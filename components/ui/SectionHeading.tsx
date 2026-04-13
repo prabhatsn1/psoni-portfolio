@@ -4,7 +4,11 @@ interface Props {
   className?: string;
 }
 
-export default function SectionHeading({ title, subtitle, className = "" }: Props) {
+export default function SectionHeading({
+  title,
+  subtitle,
+  className = "",
+}: Props) {
   return (
     <div className={`mb-16 ${className}`}>
       <h2 className="text-4xl font-bold tracking-tight text-white md:text-5xl">

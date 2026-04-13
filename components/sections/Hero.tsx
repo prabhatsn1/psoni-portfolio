@@ -40,8 +40,8 @@ export default function HeroSection({ hero, stats }: Props) {
 
       {/* Gradient orbs */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/4 top-1/4 h-96 w-96 rounded-full bg-indigo-500/20 blur-[128px]" />
-        <div className="absolute bottom-1/4 right-1/4 h-96 w-96 rounded-full bg-purple-500/15 blur-[128px]" />
+        <div className="absolute top-1/4 left-1/4 h-96 w-96 rounded-full bg-indigo-500/20 blur-[128px]" />
+        <div className="absolute right-1/4 bottom-1/4 h-96 w-96 rounded-full bg-purple-500/15 blur-[128px]" />
       </div>
 
       <motion.div
@@ -52,7 +52,7 @@ export default function HeroSection({ hero, stats }: Props) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="mb-6 text-sm font-medium uppercase tracking-widest text-indigo-400"
+          className="mb-6 text-sm font-medium tracking-widest text-indigo-400 uppercase"
         >
           Senior Software Engineer
         </motion.p>
@@ -61,7 +61,7 @@ export default function HeroSection({ hero, stats }: Props) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto max-w-4xl text-5xl font-bold leading-tight tracking-tight text-white md:text-7xl"
+          className="mx-auto max-w-4xl text-5xl leading-tight font-bold tracking-tight text-white md:text-7xl"
         >
           {hero.headline}
         </motion.h1>

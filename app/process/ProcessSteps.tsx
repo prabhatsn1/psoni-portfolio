@@ -10,7 +10,7 @@ export default function ProcessSteps({ steps }: { steps: ProcessStep[] }) {
   return (
     <div className="relative space-y-12">
       {/* Vertical line */}
-      <div className="absolute left-[27px] top-0 h-full w-px bg-gradient-to-b from-indigo-500 via-indigo-500/50 to-transparent md:left-[31px]" />
+      <div className="absolute top-0 left-[27px] h-full w-px bg-gradient-to-b from-indigo-500 via-indigo-500/50 to-transparent md:left-[31px]" />
 
       {steps.map((step, i) => (
         <ProcessStepItem key={step.step} step={step} index={i} />

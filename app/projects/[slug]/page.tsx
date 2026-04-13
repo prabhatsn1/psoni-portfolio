@@ -44,9 +44,7 @@ export default async function ProjectDetailPage({
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl">
               {project.title}
             </h1>
-            <p className="mt-4 text-lg text-zinc-400">
-              {project.description}
-            </p>
+            <p className="mt-4 text-lg text-zinc-400">{project.description}</p>
 
             <div className="mt-6 flex flex-wrap gap-2">
               {project.tech.map((t) => (
@@ -79,8 +77,8 @@ export default async function ProjectDetailPage({
               {project.category === "Mobile App"
                 ? "📱"
                 : project.category === "SaaS"
-                ? "☁️"
-                : "🖥️"}
+                  ? "☁️"
+                  : "🖥️"}
             </div>
           </div>
 

@@ -21,7 +21,7 @@ export default function ProjectDetailContent({
     <div className="space-y-16">
       {/* Problem */}
       <AnimatedSection>
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-indigo-400 uppercase">
           The Problem
         </h2>
         <p className="text-lg leading-relaxed text-zinc-300">
@@ -31,7 +31,7 @@ export default function ProjectDetailContent({
 
       {/* Solution */}
       <AnimatedSection>
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-indigo-400 uppercase">
           The Solution
         </h2>
         <p className="text-lg leading-relaxed text-zinc-300">
@@ -41,7 +41,7 @@ export default function ProjectDetailContent({
 
       {/* Approach */}
       <AnimatedSection>
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-indigo-400 uppercase">
           Approach
         </h2>
         <ol className="space-y-4">
@@ -58,7 +58,7 @@ export default function ProjectDetailContent({
 
       {/* Outcome */}
       <AnimatedSection>
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+        <h2 className="mb-4 text-sm font-semibold tracking-wider text-indigo-400 uppercase">
           Outcome
         </h2>
         <p className="text-lg leading-relaxed text-zinc-300">

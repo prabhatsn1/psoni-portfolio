@@ -51,17 +51,17 @@ types/
 
 ## Routes
 
-| Route              | Description                              |
-|--------------------|------------------------------------------|
+| Route              | Description                                            |
+| ------------------ | ------------------------------------------------------ |
 | `/`                | Animated hero, skills, featured projects, testimonials |
-| `/about`           | Bio, values, experience timeline, tech stack |
-| `/services`        | Freelance service offerings              |
-| `/projects`        | Filterable project grid                  |
-| `/projects/[slug]` | Project detail with case study           |
-| `/reviews`         | Client testimonials (masonry layout)     |
-| `/process`         | Development process steps                |
-| `/blog`            | Blog listing (mock data)                 |
-| `/contact`         | Contact form + social links              |
+| `/about`           | Bio, values, experience timeline, tech stack           |
+| `/services`        | Freelance service offerings                            |
+| `/projects`        | Filterable project grid                                |
+| `/projects/[slug]` | Project detail with case study                         |
+| `/reviews`         | Client testimonials (masonry layout)                   |
+| `/process`         | Development process steps                              |
+| `/blog`            | Blog listing (mock data)                               |
+| `/contact`         | Contact form + social links                            |
 
 ## Key Features
 

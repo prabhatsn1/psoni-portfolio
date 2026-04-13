@@ -35,7 +35,7 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
               <span>{post.readTime}</span>
             </div>
 
-            <h3 className="text-lg font-semibold leading-snug text-white">
+            <h3 className="text-lg leading-snug font-semibold text-white">
               {post.title}
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-zinc-400">

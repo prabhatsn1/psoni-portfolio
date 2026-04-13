@@ -43,7 +43,7 @@ export default function SkillsShowcase({ skills }: Props) {
         >
           {Object.entries(grouped).map(([cat, items]) => (
             <motion.div key={cat} variants={fadeInUp}>
-              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-indigo-400">
+              <h3 className="mb-4 text-sm font-semibold tracking-wider text-indigo-400 uppercase">
                 {categoryLabels[cat] ?? cat}
               </h3>
               <div className="space-y-3">
@@ -51,7 +51,9 @@ export default function SkillsShowcase({ skills }: Props) {
                   <div key={skill.name}>
                     <div className="flex justify-between text-sm">
                       <span className="text-zinc-300">{skill.name}</span>
-                      <span className="text-zinc-500">{skill.proficiency}%</span>
+                      <span className="text-zinc-500">
+                        {skill.proficiency}%
+                      </span>
                     </div>
                     <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-white/5">
                       <motion.div

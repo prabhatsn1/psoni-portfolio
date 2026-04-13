@@ -20,7 +20,7 @@ export default function CTASection() {
         >
           {/* Glow */}
           <div className="pointer-events-none absolute inset-0">
-            <div className="absolute left-1/2 top-0 h-64 w-64 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-[96px]" />
+            <div className="absolute top-0 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-[96px]" />
           </div>
 
           <div className="relative">

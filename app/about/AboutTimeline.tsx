@@ -19,7 +19,7 @@ export default function AboutTimeline({
       variants={staggerContainer}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
-      className="relative space-y-8 pl-8 before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-gradient-to-b before:from-indigo-500 before:to-transparent"
+      className="relative space-y-8 pl-8 before:absolute before:top-0 before:left-0 before:h-full before:w-px before:bg-gradient-to-b before:from-indigo-500 before:to-transparent"
     >
       {experience.map((exp) => (
         <motion.div
@@ -28,7 +28,7 @@ export default function AboutTimeline({
           className="relative"
         >
           {/* Dot */}
-          <div className="absolute -left-8 top-1 flex h-4 w-4 -translate-x-1/2 items-center justify-center">
+          <div className="absolute top-1 -left-8 flex h-4 w-4 -translate-x-1/2 items-center justify-center">
             <div className="h-3 w-3 rounded-full border-2 border-indigo-500 bg-black" />
           </div>
 
@@ -42,7 +42,10 @@ export default function AboutTimeline({
 
             <ul className="mt-3 space-y-1">
               {exp.highlights.map((h, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm text-zinc-400">
+                <li
+                  key={i}
+                  className="flex items-start gap-2 text-sm text-zinc-400"
+                >
                   <span className="mt-1 h-1 w-1 flex-shrink-0 rounded-full bg-indigo-500" />
                   {h}
                 </li>

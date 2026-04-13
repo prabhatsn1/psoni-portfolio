@@ -21,10 +21,10 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50">
+    <header className="fixed top-0 right-0 left-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Backdrop */}
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-xl border-b border-white/5 -z-10" />
+        <div className="absolute inset-0 -z-10 border-b border-white/5 bg-black/60 backdrop-blur-xl" />
 
         <Link href="/" className="text-lg font-bold tracking-tight text-white">
           prabhat<span className="text-indigo-400">soni</span>
@@ -42,9 +42,7 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   className={`relative rounded-full px-4 py-2 text-sm transition-colors ${
-                    isActive
-                      ? "text-white"
-                      : "text-zinc-400 hover:text-white"
+                    isActive ? "text-white" : "text-zinc-400 hover:text-white"
                   }`}
                 >
                   {isActive && (

@@ -18,7 +18,7 @@ export default function BlogPage() {
       <div className="pt-32">
         <section className="mx-auto max-w-7xl px-6 pb-12">
           <AnimatedSection>
-            <p className="mb-4 text-sm font-medium uppercase tracking-widest text-indigo-400">
+            <p className="mb-4 text-sm font-medium tracking-widest text-indigo-400 uppercase">
               Blog
             </p>
             <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white md:text-6xl">

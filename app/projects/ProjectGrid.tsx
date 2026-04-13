@@ -57,14 +57,14 @@ export default function ProjectGrid({ projects }: { projects: Project[] }) {
               transition={{ duration: 0.4 }}
             >
               <Link href={`/projects/${project.slug}`}>
-                <GlowCard className="group cursor-pointer h-full">
+                <GlowCard className="group h-full cursor-pointer">
                   <div className="mb-4 aspect-video overflow-hidden rounded-lg bg-gradient-to-br from-indigo-500/20 to-purple-500/20">
                     <div className="flex h-full items-center justify-center text-4xl">
                       {project.category === "Mobile App"
                         ? "📱"
                         : project.category === "SaaS"
-                        ? "☁️"
-                        : "🖥️"}
+                          ? "☁️"
+                          : "🖥️"}
                     </div>
                   </div>
 
