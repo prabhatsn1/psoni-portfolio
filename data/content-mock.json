@@ -1,0 +1,591 @@
+{
+  "personal": {
+    "name": "Prabhat Soni",
+    "title": "Senior Software Engineer",
+    "tagline": "Building scalable web & mobile experiences with React, TypeScript & Azure",
+    "email": "prabhatsn3@gmail.com",
+    "phone": "+91 9455811106",
+    "location": "Delhi, India",
+    "avatar": "/images/avatar.jpg",
+    "resumeUrl": "/Prabhat_Resume.pdf"
+  },
+  "hero": {
+    "headline": "I engineer software that scales",
+    "subheadline": "Senior Software Engineer specializing in React, TypeScript, React Native, and Azure cloud solutions. Turning complex problems into high-performance, production-ready applications.",
+    "cta": { "label": "View My Work", "href": "/projects" },
+    "secondaryCta": { "label": "Get In Touch", "href": "/contact" },
+    "backgroundText": "ENGINEER"
+  },
+  "about": {
+    "bio": [
+      "I'm a results-driven Software Engineer with expertise in full-stack development, cloud computing, and DevOps. Currently working as a Senior Software Engineer at Optum Global Solutions, where I design and deliver high-performance solutions for enterprise clients.",
+      "My core strength lies in the React ecosystem — building scalable web apps with React and TypeScript, cross-platform mobile apps with React Native, and cloud-native backends on Azure. I've migrated legacy systems to modern stacks, improving performance, scalability, and developer experience.",
+      "Beyond my day job, I'm passionate about building side projects that push my skills — from language translation apps powered by AI to real-time video communication platforms. I also have a background in mentoring, having served as a Teaching Assistant at Coding Ninja."
+    ],
+    "values": [
+      { "title": "Scalability First", "description": "I architect solutions that grow with your users. Performance and scalability are built in from day one, not bolted on later." },
+      { "title": "Clean Code Advocate", "description": "Readable, maintainable, and well-tested code matters. I reduce technical debt, not add to it." },
+      { "title": "End-to-End Ownership", "description": "From frontend UI to cloud deployment, I own the full lifecycle of what I build — debugging, troubleshooting, and optimization included." },
+      { "title": "Continuous Learning", "description": "Certified in Azure Fundamentals, trained in ethical hacking, and always exploring new technologies to deliver the best solutions." }
+    ],
+    "workingStyle": [
+      "I thrive in Agile environments with clear sprint cycles",
+      "I collaborate closely with development and QA teams for robust delivery",
+      "I'm experienced with cross-functional teams and client-facing communication",
+      "I use Git, GitHub, and modern CI/CD workflows for project management"
+    ]
+  },
+  "skills": [
+    { "name": "React", "category": "frontend", "proficiency": 95 },
+    { "name": "TypeScript", "category": "frontend", "proficiency": 93 },
+    { "name": "Next.js", "category": "frontend", "proficiency": 88 },
+    { "name": "Tailwind CSS", "category": "frontend", "proficiency": 85 },
+    { "name": "UI/UX", "category": "frontend", "proficiency": 80 },
+    { "name": "React Native", "category": "mobile", "proficiency": 85 },
+    { "name": "Expo", "category": "mobile", "proficiency": 82 },
+    { "name": "Node.js", "category": "backend", "proficiency": 82 },
+    { "name": "Python", "category": "backend", "proficiency": 78 },
+    { "name": "SQL (PostgreSQL, MySQL)", "category": "backend", "proficiency": 85 },
+    { "name": "MongoDB", "category": "backend", "proficiency": 78 },
+    { "name": "Azure Cloud", "category": "devops", "proficiency": 85 },
+    { "name": "Azure Function Apps", "category": "devops", "proficiency": 82 },
+    { "name": "Vercel", "category": "devops", "proficiency": 80 },
+    { "name": "Git / GitHub", "category": "tools", "proficiency": 92 },
+    { "name": "Debugging & Troubleshooting", "category": "tools", "proficiency": 90 },
+    { "name": "C# / Unity", "category": "tools", "proficiency": 65 }
+  ],
+  "services": [
+    {
+      "id": "web-development",
+      "title": "Web Application Development",
+      "description": "Full-stack web applications built with React and Next.js, optimized for performance and scalability. From enterprise dashboards to modern SaaS platforms.",
+      "features": [
+        "Server-side rendering & static generation with Next.js",
+        "Legacy-to-React migration for improved performance",
+        "API design and Azure Function App integration",
+        "Authentication & authorization",
+        "Performance optimization & Core Web Vitals"
+      ],
+      "icon": "🌐"
+    },
+    {
+      "id": "mobile-development",
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile applications using React Native and Expo. Native performance with a single codebase for iOS and Android.",
+      "features": [
+        "Cross-platform iOS & Android apps",
+        "Real-time features with video & streaming",
+        "Push notifications & deep linking",
+        "Clerk Auth & third-party integrations",
+        "App Store deployment & optimization"
+      ],
+      "icon": "📱"
+    },
+    {
+      "id": "cloud-devops",
+      "title": "Azure Cloud & DevOps",
+      "description": "Cloud-native solutions on Microsoft Azure. From serverless functions to full deployment pipelines, I help teams ship faster with confidence.",
+      "features": [
+        "Azure Function Apps & serverless architecture",
+        "CI/CD pipeline setup and optimization",
+        "Cloud infrastructure design",
+        "Automation & scripting",
+        "AZ-900 certified Azure fundamentals"
+      ],
+      "icon": "☁️"
+    },
+    {
+      "id": "frontend-architecture",
+      "title": "Frontend Architecture & Consulting",
+      "description": "Technical leadership for frontend teams. Architecture reviews, legacy migration strategies, and performance audits for modern React applications.",
+      "features": [
+        "Legacy-to-React migration planning & execution",
+        "Codebase audits & architecture reviews",
+        "Component library & design system development",
+        "Debugging & troubleshooting complex issues",
+        "Team mentoring & code reviews"
+      ],
+      "icon": "🏗️"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Optum Global Solutions",
+      "role": "Senior Software Engineer",
+      "period": "Jun 2022 – Present",
+      "description": "Designing and implementing scalable, high-performance solutions for healthcare and enterprise clients at UnitedHealth Group's technology arm.",
+      "highlights": [
+        "Collaborated with development and QA teams to design and implement scalable, high-performance solutions that met client requirements",
+        "Migrated legacy code to React, improving performance, scalability, and maintainability while enhancing the user experience",
+        "Reduced technical debt through systematic modernization of the frontend architecture"
+      ],
+      "tech": ["React", "TypeScript", "Azure", "SQL", "Node.js"]
+    },
+    {
+      "company": "Principal Global Services",
+      "role": "Intern",
+      "period": "Jan 2022 – Mar 2022",
+      "description": "Analyzed problems and worked with teams to develop solutions at a global financial services company.",
+      "highlights": [
+        "Analyzed problems and worked with teams to develop solutions",
+        "Participated in workshops and presentations related to projects to gain knowledge"
+      ],
+      "tech": ["Full Stack Development", "Problem Solving"]
+    },
+    {
+      "company": "Coding Ninja",
+      "role": "Teaching Assistant",
+      "period": "Oct 2021 – Dec 2021",
+      "description": "Mentored students in programming concepts, providing individual and group tutoring to reinforce learning.",
+      "highlights": [
+        "Tutored struggling students individually and in small groups to reinforce learning concepts",
+        "Helped students debug code and understand data structures & algorithms"
+      ],
+      "tech": ["Teaching", "Data Structures", "Algorithms"]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "splitwise",
+      "title": "Splitwise — Expense Sharing App",
+      "shortDescription": "Full-featured React Native expense sharing app with offline-first architecture and OCR receipt scanning",
+      "description": "A comprehensive expense sharing mobile application built with React Native and Expo, featuring offline-first architecture, OCR receipt scanning, multi-currency support, debt simplification, analytics dashboards, and biometric authentication. Uses MongoDB for backend storage with automatic sync queue for offline mutations.",
+      "category": "Mobile App",
+      "tech": ["React Native", "Expo", "TypeScript", "MongoDB", "AsyncStorage", "OCR"],
+      "thumbnail": "/images/projects/splitwise-thumb.jpg",
+      "images": ["/images/projects/splitwise-1.jpg", "/images/projects/splitwise-2.jpg"],
+      "repoUrl": "https://github.com/prabhatsn1/splitwise",
+      "featured": true,
+      "caseStudy": {
+        "problem": "Existing expense-splitting apps require constant internet connectivity and lack features like receipt scanning, multi-currency support, and detailed analytics.",
+        "solution": "Built an offline-first React Native app with full local storage, automatic sync queue, OCR-based receipt scanning, and a greedy debt simplification algorithm.",
+        "approach": [
+          "Implemented offline-first architecture with AsyncStorage + MongoDB sync queue",
+          "Integrated OCR.space API for camera-based receipt scanning with smart total extraction",
+          "Built 12-currency support with live exchange rates and offline fallback",
+          "Developed analytics dashboard with spending trends, category breakdowns, and YoY comparison",
+          "Added biometric authentication (Face ID, Fingerprint) via expo-local-authentication"
+        ],
+        "outcome": "A production-ready expense sharing app with 14 features including recurring expenses, push notifications, dark mode, CSV/PDF export, and visual debt simplification diagrams.",
+        "metrics": [
+          { "label": "Features", "value": "14+" },
+          { "label": "Currencies", "value": "12" },
+          { "label": "Split Types", "value": "4" },
+          { "label": "Screens", "value": "14" }
+        ]
+      }
+    },
+    {
+      "slug": "notegenius",
+      "title": "NoteGenius — AI Voice Notes",
+      "shortDescription": "Offline-first voice notes app with AI summarization and spaced-repetition flashcards",
+      "description": "An offline-first voice notes application built with React Native and Expo SDK 54. Features live transcription, AI-powered summarization (offline NLP + Google Gemini), auto-generated flashcards with SM-2 spaced repetition, and multi-language speech-to-text support.",
+      "category": "Mobile App",
+      "tech": ["React Native", "Expo", "TypeScript", "Zustand", "SQLite", "Google Gemini"],
+      "thumbnail": "/images/projects/notegenius-thumb.jpg",
+      "images": ["/images/projects/notegenius-1.jpg", "/images/projects/notegenius-2.jpg"],
+      "repoUrl": "https://github.com/prabhatsn1/NoteGenius",
+      "featured": true,
+      "caseStudy": {
+        "problem": "Professionals need a way to capture meeting notes via voice, get automatic summaries, and study key takeaways — all without relying on cloud connectivity.",
+        "solution": "Built an offline-first React Native app with on-device speech-to-text, a custom TextRank NLP pipeline for extractive summarization, and SM-2 spaced repetition for flashcard review.",
+        "approach": [
+          "Implemented on-device speech-to-text via @react-native-voice/voice supporting 8 languages",
+          "Built custom NLP pipeline with TextRank summarization, sentiment analysis, and keyword extraction",
+          "Added optional Google Gemini cloud provider with encrypted API key storage",
+          "Developed SM-2 spaced repetition algorithm for auto-generated flashcards (Q&A, cloze, term-def)",
+          "Used SQLite (WAL mode) + MMKV for fully offline data persistence"
+        ],
+        "outcome": "A fully functional voice-to-flashcard pipeline that works entirely offline, with optional cloud AI enhancement via Gemini.",
+        "metrics": [
+          { "label": "Languages", "value": "8" },
+          { "label": "AI Providers", "value": "2" },
+          { "label": "Flashcard Types", "value": "4" },
+          { "label": "Zustand Stores", "value": "5" }
+        ]
+      }
+    },
+    {
+      "slug": "pdf-rag-chat",
+      "title": "PDF RAG Chat",
+      "shortDescription": "Upload PDFs and chat with them using AI — answers grounded in your documents with citations",
+      "description": "A full-stack Next.js application for uploading PDF documents and chatting with them using Google Gemini AI. Features semantic vector search, smart text chunking, streaming responses, and citation references to specific pages and chunks.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Google Gemini", "Pinecone", "Tailwind CSS", "Vitest"],
+      "thumbnail": "/images/projects/pdfrag-thumb.jpg",
+      "images": ["/images/projects/pdfrag-1.jpg", "/images/projects/pdfrag-2.jpg"],
+      "liveUrl": "https://pdf-rag-five-omega.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/pdf_rag",
+      "featured": true,
+      "caseStudy": {
+        "problem": "Professionals need to quickly extract answers from large PDF documents without reading them cover to cover.",
+        "solution": "Built a RAG (Retrieval-Augmented Generation) pipeline that chunks PDFs, generates embeddings with Google's text-embedding-004, and answers questions with cited sources.",
+        "approach": [
+          "Implemented smart text chunking with 1200-char chunks and 180-char overlap",
+          "Generated semantic embeddings using Google text-embedding-004 (768 dimensions)",
+          "Built vector search with in-memory store (dev) and Pinecone (production)",
+          "Integrated Google Gemini for streaming AI responses with page/chunk citations",
+          "Added health check and models API endpoints for monitoring"
+        ],
+        "outcome": "A production-deployed RAG application on Vercel that lets users upload PDFs and get accurate, cited answers in real-time via streaming.",
+        "metrics": [
+          { "label": "Max Upload", "value": "20 MB" },
+          { "label": "Embedding Dim", "value": "768" },
+          { "label": "Chunk Size", "value": "1200" },
+          { "label": "AI Model", "value": "Gemini" }
+        ]
+      }
+    },
+    {
+      "slug": "prestige-realty",
+      "title": "Prestige Realty — Real Estate Platform",
+      "shortDescription": "Production-ready real estate website with 3D hero, Supabase auth, and property listings",
+      "description": "A production-ready real estate agency website built with Next.js 16 App Router, MUI v7, Framer Motion, and React Three Fiber. Features interactive 3D hero scene, property listings with filters, agent profiles, Supabase authentication, and favourites system.",
+      "category": "Web App",
+      "tech": ["Next.js 16", "MUI v7", "Framer Motion", "React Three Fiber", "Supabase", "Zod"],
+      "thumbnail": "/images/projects/realty-thumb.jpg",
+      "images": ["/images/projects/realty-1.jpg", "/images/projects/realty-2.jpg"],
+      "liveUrl": "https://real-state-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/real_state_webapp",
+      "featured": true,
+      "caseStudy": {
+        "problem": "Real estate agencies need a modern, interactive web presence with property search, agent profiles, and user authentication — not just a static brochure site.",
+        "solution": "Built a full-featured Next.js 16 platform with 3D animated hero, filterable listings, Supabase-powered auth and favourites, and server actions for enquiries.",
+        "approach": [
+          "Created an interactive Three.js hero scene with React Three Fiber and Drei",
+          "Built filterable property listings with URL-based search params for shareability",
+          "Integrated Supabase for auth, favourites, and enquiry form submissions via Server Actions",
+          "Implemented mock mode for running fully without Supabase backend",
+          "Added scroll-triggered Framer Motion animations across 14 pages"
+        ],
+        "outcome": "A deployed real estate platform with 14 pages including listings, agent profiles, favourites, FAQ, and legal pages — with full authentication and database integration.",
+        "metrics": [
+          { "label": "Pages", "value": "14" },
+          { "label": "3D Scene", "value": "Three.js" },
+          { "label": "Auth", "value": "Supabase" },
+          { "label": "Framework", "value": "Next.js 16" }
+        ]
+      }
+    },
+    {
+      "slug": "google-translate-clone",
+      "title": "Google Translate Clone",
+      "shortDescription": "Language translation app with Azure, OpenAI, Clerk auth, and MongoDB history",
+      "description": "A language translation application replicating core Google Translate functionalities. Built with Next.js, integrating Microsoft Azure for cloud infrastructure, Clerk for user authentication, MongoDB with Mongoose for translation history, and OpenAI for enhanced translation accuracy.",
+      "category": "Web App",
+      "tech": ["Next.js", "Microsoft Azure", "Clerk", "MongoDB", "Mongoose", "OpenAI API"],
+      "thumbnail": "/images/projects/translator-thumb.jpg",
+      "images": ["/images/projects/translator-1.jpg", "/images/projects/translator-2.jpg"],
+      "liveUrl": "https://google-translate-clone-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/google-translate-clone",
+      "featured": true,
+      "caseStudy": {
+        "problem": "Users needed a translation tool with persistent history, authenticated sessions, and AI-powered accuracy — going beyond basic browser-based translation.",
+        "solution": "Built a Next.js application with Azure Cognitive Services for translation, Clerk for authentication, and MongoDB for storing translation history with full CRUD operations.",
+        "approach": [
+          "Integrated Microsoft Azure Translator API for multi-language support",
+          "Implemented Clerk authentication for user session management",
+          "Built MongoDB + Mongoose backend for persistent translation history",
+          "Leveraged OpenAI API for enhanced translation context and suggestions"
+        ],
+        "outcome": "A production-ready translation app deployed on Vercel with authenticated user sessions, persistent history, and AI-enhanced translations supporting 100+ languages.",
+        "metrics": [
+          { "label": "Languages", "value": "100+" },
+          { "label": "Auth", "value": "Clerk" },
+          { "label": "Cloud", "value": "Azure" },
+          { "label": "AI", "value": "OpenAI" }
+        ]
+      }
+    },
+    {
+      "slug": "kashya",
+      "title": "Kashya — E-Commerce Platform",
+      "shortDescription": "Girls clothing e-commerce website built with Next.js and TypeScript",
+      "description": "A modern e-commerce website for girls' clothing built with Next.js and TypeScript. Features product browsing, responsive design, and a clean shopping experience deployed on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/kashya-thumb.jpg",
+      "images": ["/images/projects/kashya-1.jpg", "/images/projects/kashya-2.jpg"],
+      "liveUrl": "https://kashya.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/kashya",
+      "featured": true
+    },
+    {
+      "slug": "e-auction",
+      "title": "E-Auction Platform",
+      "shortDescription": "Online auction platform with real-time bidding, authentication, and CRUD operations",
+      "description": "A full-stack online auction platform built with Next.js and TypeScript. Features auction creation and editing, real-time bidding system, user authentication, and a responsive UI with Tailwind CSS.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+      "thumbnail": "/images/projects/auction-thumb.jpg",
+      "images": ["/images/projects/auction-1.jpg"],
+      "repoUrl": "https://github.com/prabhatsn1/e-auction",
+      "featured": false
+    },
+    {
+      "slug": "email-sender",
+      "title": "Email Sender",
+      "shortDescription": "Bulk email sending tool built with Next.js and multiple sender profiles",
+      "description": "A Next.js-based email sending application with support for multiple sender profiles, file attachments, and a clean interface for composing and sending emails. Deployed on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/email-thumb.jpg",
+      "images": ["/images/projects/email-1.jpg"],
+      "liveUrl": "https://email-sender-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/email-sender",
+      "featured": false
+    },
+    {
+      "slug": "design-studio",
+      "title": "Design Studio",
+      "shortDescription": "Creative design studio portfolio with interactive motifs and theme switching",
+      "description": "A design studio portfolio website built with Next.js featuring interactive motif components, theme switching (light/dark), and modern UI design. Deployed on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/studio-thumb.jpg",
+      "images": ["/images/projects/studio-1.jpg"],
+      "liveUrl": "https://design-studio-six.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/Design-Studio",
+      "featured": false
+    },
+    {
+      "slug": "storyteller-ai",
+      "title": "Storyteller AI",
+      "shortDescription": "AI-powered storytelling platform built with Next.js and ShadCN UI",
+      "description": "An AI-powered storytelling application built with Next.js. Features a polished UI with ShadCN components and Tailwind CSS for generating and browsing AI-created stories.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN UI"],
+      "thumbnail": "/images/projects/storyteller-thumb.jpg",
+      "images": ["/images/projects/storyteller-1.jpg"],
+      "repoUrl": "https://github.com/prabhatsn1/storyteller-ai",
+      "featured": false
+    },
+    {
+      "slug": "enterprise-dashboard",
+      "title": "Enterprise Healthcare Dashboard",
+      "shortDescription": "Scalable React dashboard for healthcare enterprise clients at Optum",
+      "description": "A high-performance enterprise dashboard built during my tenure at Optum Global Solutions. Migrated from a legacy codebase to modern React with TypeScript, significantly improving performance, maintainability, and user experience.",
+      "category": "Web App",
+      "tech": ["React", "TypeScript", "Azure", "SQL", "Node.js"],
+      "thumbnail": "/images/projects/enterprise-thumb.jpg",
+      "images": ["/images/projects/enterprise-1.jpg", "/images/projects/enterprise-2.jpg"],
+      "featured": false,
+      "caseStudy": {
+        "problem": "Legacy healthcare application suffered from poor performance, high technical debt, and difficulty in onboarding new developers due to outdated architecture.",
+        "solution": "Led a systematic migration from legacy code to React with TypeScript, implementing modern patterns, improving performance, and establishing scalable architecture.",
+        "approach": [
+          "Audited existing codebase to identify migration priorities",
+          "Incrementally migrated components to React with TypeScript",
+          "Collaborated with QA teams to ensure client requirements were met",
+          "Established coding standards and component patterns for the team"
+        ],
+        "outcome": "Successfully modernized the frontend, reducing load times and improving developer velocity. The solution met all client requirements and reduced ongoing maintenance burden.",
+        "metrics": [
+          { "label": "Tech Debt", "value": "Reduced" },
+          { "label": "Performance", "value": "Improved" },
+          { "label": "Stack", "value": "React + TS" },
+          { "label": "Cloud", "value": "Azure" }
+        ]
+      }
+    },
+    {
+      "slug": "portfolio-website",
+      "title": "Portfolio Website",
+      "shortDescription": "Animated portfolio site built with Next.js and Framer Motion",
+      "description": "A modern, animation-driven portfolio website showcasing projects and skills. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion with scroll-based animations, 3D perspective effects, and a fully static architecture.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "thumbnail": "/images/projects/portfolio-thumb.jpg",
+      "images": ["/images/projects/portfolio-1.jpg"],
+      "liveUrl": "https://portfolio-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/psoni-portfolio",
+      "featured": false
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Rajesh Kumar",
+      "role": "Engineering Manager",
+      "company": "Optum Global Solutions",
+      "avatar": "/images/testimonials/rajesh.jpg",
+      "quote": "Prabhat played a key role in our React migration. His ability to modernize legacy code while maintaining stability was impressive. He consistently delivered high-quality work and collaborated effectively with QA and product teams.",
+      "rating": 5,
+      "project": "Enterprise Healthcare Dashboard"
+    },
+    {
+      "id": "t2",
+      "name": "Ananya Sharma",
+      "role": "Tech Lead",
+      "company": "Optum Global Solutions",
+      "avatar": "/images/testimonials/ananya.jpg",
+      "quote": "Working with Prabhat was a great experience. He brought strong TypeScript and React skills to the team, and his debugging abilities saved us significant time on complex issues. A reliable and skilled engineer.",
+      "rating": 5
+    },
+    {
+      "id": "t3",
+      "name": "Vikram Patel",
+      "role": "Senior Developer",
+      "company": "Principal Global Services",
+      "avatar": "/images/testimonials/vikram.jpg",
+      "quote": "Even as an intern, Prabhat showed remarkable initiative. He quickly grasped complex problems, contributed meaningful solutions, and actively participated in technical workshops. Clearly someone with strong growth potential.",
+      "rating": 5
+    },
+    {
+      "id": "t4",
+      "name": "Neha Gupta",
+      "role": "Student",
+      "company": "Coding Ninja",
+      "avatar": "/images/testimonials/neha.jpg",
+      "quote": "Prabhat was an excellent teaching assistant. He was patient, explained concepts clearly, and always made time for one-on-one sessions. His mentoring helped me crack my first coding interview.",
+      "rating": 5
+    },
+    {
+      "id": "t5",
+      "name": "Amit Verma",
+      "role": "Product Owner",
+      "company": "Optum Global Solutions",
+      "avatar": "/images/testimonials/amit.jpg",
+      "quote": "Prabhat consistently delivered solutions that met our client requirements. His attention to performance optimization and clean code practices set a great standard for the team.",
+      "rating": 5,
+      "project": "Enterprise Healthcare Dashboard"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Discovery",
+      "description": "I start by understanding the problem deeply — the business context, users, and technical constraints — before writing any code.",
+      "details": [
+        "Stakeholder interviews and requirements gathering",
+        "Technical feasibility assessment",
+        "Existing codebase and architecture audit",
+        "Competitive analysis"
+      ],
+      "icon": "🔍"
+    },
+    {
+      "step": 2,
+      "title": "Architecture & Planning",
+      "description": "A solid technical foundation saves months of development time. I design the system architecture and create a detailed project roadmap.",
+      "details": [
+        "System architecture design",
+        "Technology stack selection",
+        "API contract definition",
+        "Sprint planning and milestone setting"
+      ],
+      "icon": "📐"
+    },
+    {
+      "step": 3,
+      "title": "Design & Prototyping",
+      "description": "Before full development, I validate ideas with prototypes. Fast iteration at this stage saves significant time and budget.",
+      "details": [
+        "Wireframing and UI design collaboration",
+        "Interactive prototype development",
+        "User testing and feedback loops",
+        "Component pattern establishment"
+      ],
+      "icon": "🎨"
+    },
+    {
+      "step": 4,
+      "title": "Development",
+      "description": "Agile development with regular demos and continuous deployment. You'll see progress every sprint, not just at the end.",
+      "details": [
+        "Clean, typed code with TypeScript",
+        "Continuous integration and deployment",
+        "Regular demo sessions with stakeholders",
+        "Code reviews and documentation"
+      ],
+      "icon": "⚡"
+    },
+    {
+      "step": 5,
+      "title": "Testing & QA",
+      "description": "Close collaboration with QA teams to ensure comprehensive testing before any release. I build solutions that work reliably.",
+      "details": [
+        "Unit and integration testing",
+        "Cross-browser and cross-device testing",
+        "Performance testing and optimization",
+        "QA team collaboration and bug resolution"
+      ],
+      "icon": "🧪"
+    },
+    {
+      "step": 6,
+      "title": "Launch & Support",
+      "description": "A smooth launch with proper monitoring. I provide post-launch support and iterative improvements based on real user feedback.",
+      "details": [
+        "Deployment to Azure / Vercel",
+        "Performance monitoring setup",
+        "Post-launch bug fixes and optimization",
+        "Knowledge transfer and documentation"
+      ],
+      "icon": "🚀"
+    }
+  ],
+  "stats": [
+    { "label": "Years Experience", "value": "4", "suffix": "+" },
+    { "label": "GitHub Repos", "value": "42" },
+    { "label": "Contributions", "value": "533", "suffix": "+" },
+    { "label": "Technologies", "value": "15", "suffix": "+" }
+  ],
+  "blog": [
+    {
+      "slug": "migrating-legacy-to-react",
+      "title": "Migrating Legacy Code to React: Lessons from the Trenches",
+      "excerpt": "Practical strategies for incrementally migrating enterprise legacy applications to modern React with TypeScript — without breaking production.",
+      "category": "React",
+      "date": "2026-03-15",
+      "readTime": "12 min read",
+      "thumbnail": "/images/blog/migration.jpg",
+      "tags": ["React", "TypeScript", "Migration", "Enterprise"]
+    },
+    {
+      "slug": "azure-function-apps-guide",
+      "title": "Building Serverless APIs with Azure Function Apps",
+      "excerpt": "A hands-on guide to building scalable serverless APIs on Azure — from local development to production deployment.",
+      "category": "Azure",
+      "date": "2026-02-28",
+      "readTime": "10 min read",
+      "thumbnail": "/images/blog/azure-functions.jpg",
+      "tags": ["Azure", "Serverless", "Cloud", "API"]
+    },
+    {
+      "slug": "react-native-expo-2026",
+      "title": "Building Production React Native Apps with Expo in 2026",
+      "excerpt": "Everything you need to know about building and deploying React Native apps with Expo — from project setup to App Store submission.",
+      "category": "React Native",
+      "date": "2026-02-10",
+      "readTime": "14 min read",
+      "thumbnail": "/images/blog/expo.jpg",
+      "tags": ["React Native", "Expo", "Mobile", "TypeScript"]
+    },
+    {
+      "slug": "typescript-patterns-enterprise",
+      "title": "TypeScript Patterns for Enterprise React Applications",
+      "excerpt": "Advanced TypeScript patterns I use daily at Optum — from discriminated unions to type-safe API layers.",
+      "category": "TypeScript",
+      "date": "2026-01-20",
+      "readTime": "9 min read",
+      "thumbnail": "/images/blog/typescript.jpg",
+      "tags": ["TypeScript", "React", "Patterns", "Enterprise"]
+    },
+    {
+      "slug": "debugging-complex-react-apps",
+      "title": "Debugging Complex React Applications: A Senior Engineer's Toolkit",
+      "excerpt": "My approach to debugging the trickiest React bugs — tools, techniques, and mental models that save hours of frustration.",
+      "category": "Frontend",
+      "date": "2026-01-05",
+      "readTime": "11 min read",
+      "thumbnail": "/images/blog/debugging.jpg",
+      "tags": ["Debugging", "React", "DevTools", "Performance"]
+    }
+  ],
+  "social": [
+    { "platform": "GitHub", "url": "https://github.com/prabhatsn1", "icon": "github" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/prabhatsn1", "icon": "linkedin" },
+    { "platform": "Portfolio", "url": "https://portfolio-psoni.vercel.app", "icon": "globe" }
+  ]
+}
