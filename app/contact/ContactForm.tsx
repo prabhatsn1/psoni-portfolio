@@ -5,6 +5,34 @@ import { useState } from "react";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      subject: (form.elements.namedItem("subject") as HTMLInputElement).value,
+      budget: (form.elements.namedItem("budget") as HTMLSelectElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement)
+        .value,
+    };
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    setLoading(false);
+    if (res.ok) setSubmitted(true);
+    else setError("Something went wrong. Please try again.");
+  }
 
   return (
     <div>
@@ -23,13 +51,7 @@ export default function ContactForm() {
           </p>
         </motion.div>
       ) : (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            setSubmitted(true);
-          }}
-          className="space-y-6"
-        >
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid gap-6 md:grid-cols-2">
             <div>
               <label
@@ -119,13 +141,16 @@ export default function ContactForm() {
             />
           </div>
 
+          {error && <p className="text-sm text-red-400">{error}</p>}
+
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             type="submit"
-            className="w-full rounded-xl bg-indigo-500 px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-400"
+            disabled={loading}
+            className="w-full rounded-xl bg-indigo-500 px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-400 disabled:opacity-60"
           >
-            Send Message
+            {loading ? "Sending..." : "Send Message"}
           </motion.button>
         </form>
       )}

@@ -3,7 +3,7 @@
     "name": "Prabhat Soni",
     "title": "Senior Software Engineer",
     "tagline": "Building scalable web & mobile experiences with React, TypeScript & Azure",
-    "email": "prabhatsn3@gmail.com",
+    "email": "prabhatsn1@gmail.com",
     "phone": "+91 9455811106",
     "location": "Delhi, India",
     "avatar": "/images/avatar.jpg",
@@ -151,17 +151,6 @@
         "Participated in workshops and presentations related to projects to gain knowledge"
       ],
       "tech": ["Full Stack Development", "Problem Solving"]
-    },
-    {
-      "company": "Coding Ninja",
-      "role": "Teaching Assistant",
-      "period": "Oct 2021 – Dec 2021",
-      "description": "Mentored students in programming concepts, providing individual and group tutoring to reinforce learning.",
-      "highlights": [
-        "Tutored struggling students individually and in small groups to reinforce learning concepts",
-        "Helped students debug code and understand data structures & algorithms"
-      ],
-      "tech": ["Teaching", "Data Structures", "Algorithms"]
     }
   ],
   "projects": [
