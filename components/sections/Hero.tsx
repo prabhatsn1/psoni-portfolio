@@ -74,8 +74,7 @@ export default function HeroSection({ hero, stats }: Props) {
           transition={{ delay: 0.3, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="mx-auto max-w-5xl text-5xl leading-[1.1] font-bold tracking-tight text-white md:text-7xl lg:text-8xl"
         >
-          I engineer software{" "}
-          <br className="hidden md:block" />
+          I engineer software <br className="hidden md:block" />
           <span className="relative inline-block">
             <span className="bg-gradient-to-r from-indigo-400 via-violet-400 to-indigo-300 bg-clip-text text-transparent">
               that scales.
@@ -84,7 +83,11 @@ export default function HeroSection({ hero, stats }: Props) {
             <motion.span
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
-              transition={{ delay: 0.9, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+              transition={{
+                delay: 0.9,
+                duration: 0.6,
+                ease: [0.22, 1, 0.36, 1],
+              }}
               className="absolute -bottom-2 left-0 h-px w-full origin-left bg-gradient-to-r from-indigo-400/80 to-transparent"
             />
           </span>

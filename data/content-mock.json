@@ -373,16 +373,404 @@
       "featured": true
     },
     {
+      "slug": "youtube-growth-hub",
+      "title": "YouTube Growth Hub",
+      "shortDescription": "YouTube channel analytics and growth strategy platform with AI-powered insights",
+      "description": "A YouTube creator growth platform built with Next.js and TypeScript. Features channel analytics, content strategy tools, and AI-powered insights to help creators grow their audience and optimise their content.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "YouTube API"],
+      "thumbnail": "/images/projects/youtube-thumb.jpg",
+      "images": [
+        "/images/projects/youtube-1.jpg",
+        "/images/projects/youtube-2.jpg"
+      ],
+      "liveUrl": "https://youtube-growth-hub.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/youtube-growth-hub",
+      "featured": false,
+      "caseStudy": {
+        "problem": "YouTube creators struggle to understand what drives channel growth — they lack actionable analytics and content strategy tools in one place.",
+        "solution": "Built a growth hub that aggregates channel data via the YouTube API and surfaces AI-powered recommendations for content optimisation and audience growth.",
+        "approach": [
+          "Integrated YouTube Data API for channel and video analytics",
+          "Built content performance dashboards with engagement metrics",
+          "Added AI-powered content strategy suggestions",
+          "Designed a clean creator-focused UI with Next.js and Tailwind CSS",
+          "Deployed on Vercel with static generation for fast load times"
+        ],
+        "outcome": "A live creator analytics platform at youtube-growth-hub.vercel.app that gives YouTubers data-driven insights to accelerate channel growth.",
+        "metrics": [
+          { "label": "API", "value": "YouTube" },
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "ar-menu",
+      "title": "AR Menu — Augmented Reality Restaurant Menu",
+      "shortDescription": "Web-based AR restaurant menu that lets diners visualise dishes in 3D before ordering",
+      "description": "A web-based augmented reality restaurant menu built with Next.js and TypeScript. Lets diners scan a QR code and visualise menu items as interactive 3D models in their real environment before placing an order.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "WebXR", "Three.js", "Tailwind CSS"],
+      "thumbnail": "/images/projects/ar-menu-thumb.jpg",
+      "images": [
+        "/images/projects/ar-menu-1.jpg",
+        "/images/projects/ar-menu-2.jpg"
+      ],
+      "liveUrl": "https://ar-menu-lyart.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/ar-menu",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Restaurant menus with static images fail to convey portion sizes and presentation, leading to order uncertainty and customer dissatisfaction.",
+        "solution": "Built a WebXR-powered AR menu where diners can place 3D dish models on their table via their phone camera before ordering.",
+        "approach": [
+          "Implemented WebXR / model-viewer for browser-native AR without app installs",
+          "Created 3D dish models and integrated them with menu item data",
+          "Built a QR-code-accessible menu UI optimised for mobile browsers",
+          "Used Next.js for fast static delivery and Tailwind CSS for the menu UI",
+          "Deployed on Vercel for zero-config global CDN delivery"
+        ],
+        "outcome": "A live AR menu experience at ar-menu-lyart.vercel.app that lets diners preview dishes in 3D — no app download required.",
+        "metrics": [
+          { "label": "Tech", "value": "WebXR" },
+          { "label": "3D", "value": "model-viewer" },
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "ticketr",
+      "title": "Ticketr — Event Ticketing Platform",
+      "shortDescription": "Full-stack event ticketing platform with Stripe payments, Convex backend, and QR code tickets",
+      "description": "A full-stack event ticketing platform built with Next.js and TypeScript. Features event creation, seat management, Stripe-powered payments, QR code ticket generation, and a real-time backend powered by Convex.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Stripe", "Convex", "Tailwind CSS"],
+      "thumbnail": "/images/projects/ticketr-thumb.jpg",
+      "images": [
+        "/images/projects/ticketr-1.jpg",
+        "/images/projects/ticketr-2.jpg"
+      ],
+      "liveUrl": "https://ticketr-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/ticketr",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Event organisers need a self-serve ticketing solution with real-time seat availability, secure payments, and digital ticket delivery — without paying high platform fees.",
+        "solution": "Built a full-stack ticketing platform with Stripe Checkout for payments, Convex for real-time data sync, and QR code generation for digital ticket delivery.",
+        "approach": [
+          "Integrated Stripe Checkout for secure, PCI-compliant payment processing",
+          "Used Convex as a real-time backend for live seat availability updates",
+          "Generated QR code tickets post-purchase for digital entry validation",
+          "Built event creation and management dashboard for organisers",
+          "Deployed on Vercel with Next.js App Router and TypeScript"
+        ],
+        "outcome": "A live ticketing platform at ticketr-psoni.vercel.app with end-to-end event creation, payment, and QR ticket delivery.",
+        "metrics": [
+          { "label": "Payments", "value": "Stripe" },
+          { "label": "Backend", "value": "Convex" },
+          { "label": "Tickets", "value": "QR Code" },
+          { "label": "Framework", "value": "Next.js" }
+        ]
+      }
+    },
+    {
+      "slug": "ayurfresh-web",
+      "title": "AyurFresh — Ayurvedic Wellness Platform",
+      "shortDescription": "Modern e-commerce and wellness platform for Ayurvedic products with product listings and cart",
+      "description": "A modern Ayurvedic wellness web application built with Next.js and TypeScript. Features product listings, category browsing, a shopping cart, and a clean wellness-focused UI — deployed live on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/ayurfresh-thumb.jpg",
+      "images": [
+        "/images/projects/ayurfresh-1.jpg",
+        "/images/projects/ayurfresh-2.jpg"
+      ],
+      "liveUrl": "https://ayurfresh-web.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/ayurfresh-web",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Ayurvedic wellness brands lack modern, trustworthy e-commerce storefronts that communicate product benefits and make purchasing seamless.",
+        "solution": "Built a clean, wellness-focused product platform with category filtering, detailed product pages, and a shopping cart — designed to build brand trust and drive conversions.",
+        "approach": [
+          "Designed product listing pages with category filters and search",
+          "Built detailed product pages with ingredients, benefits, and usage info",
+          "Implemented a shopping cart with quantity management",
+          "Used Next.js static generation for fast, SEO-friendly product pages",
+          "Styled with Tailwind CSS for a clean, natural wellness aesthetic"
+        ],
+        "outcome": "A live Ayurvedic e-commerce platform at ayurfresh-web.vercel.app with a full product browsing and cart experience.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Domain", "value": "Wellness" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "captioncraft",
+      "title": "CaptionCraft — AI Caption Generator",
+      "shortDescription": "AI-powered social media caption generator for Instagram, Twitter, and LinkedIn",
+      "description": "An AI-powered caption generation tool built with Next.js and TypeScript. Users input a topic or image description and get platform-optimised captions for Instagram, Twitter, and LinkedIn — with tone and style controls.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI API"],
+      "thumbnail": "/images/projects/captioncraft-thumb.jpg",
+      "images": [
+        "/images/projects/captioncraft-1.jpg",
+        "/images/projects/captioncraft-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/captioncraft",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Content creators and marketers spend significant time writing captions for every social platform — each requiring a different tone, length, and hashtag strategy.",
+        "solution": "Built an AI caption generator that takes a topic or description and produces platform-specific captions with tone controls, saving creators hours of copywriting.",
+        "approach": [
+          "Integrated OpenAI API to generate platform-optimised captions",
+          "Built tone and style selectors (professional, casual, witty, inspirational)",
+          "Added platform tabs for Instagram, Twitter, and LinkedIn outputs",
+          "Implemented one-click copy for each generated caption",
+          "Designed a minimal, distraction-free UI with Tailwind CSS"
+        ],
+        "outcome": "A focused AI tool that generates ready-to-post captions for multiple social platforms in seconds, with full tone customisation.",
+        "metrics": [
+          { "label": "AI", "value": "OpenAI" },
+          { "label": "Platforms", "value": "3" },
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" }
+        ]
+      }
+    },
+    {
+      "slug": "person-search-app",
+      "title": "Person Search App",
+      "shortDescription": "People search application with real-time filtering, profile cards, and detailed person views",
+      "description": "A people search web application built with Next.js and TypeScript. Features real-time search and filtering across a person dataset, profile card listings, and detailed individual views.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/person-search-thumb.jpg",
+      "images": [
+        "/images/projects/person-search-1.jpg",
+        "/images/projects/person-search-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/person-search-app",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Searching through large datasets of people records is slow and cumbersome without a dedicated, filterable UI.",
+        "solution": "Built a fast person search app with real-time filtering by name, role, and other attributes — displaying results as clean profile cards with detailed views.",
+        "approach": [
+          "Implemented real-time search with debounced input for performance",
+          "Built multi-attribute filtering (name, role, location)",
+          "Designed profile card grid with expandable detail views",
+          "Used Next.js dynamic routing for individual person pages",
+          "Optimised for large datasets with client-side filtering"
+        ],
+        "outcome": "A performant people search interface with real-time filtering and clean profile presentation, demonstrating advanced React state and data handling.",
+        "metrics": [
+          { "label": "Search", "value": "Real-time" },
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Filtering", "value": "Multi-attr" }
+        ]
+      }
+    },
+    {
+      "slug": "tours-travels",
+      "title": "Tours & Travels — Travel Booking Platform",
+      "shortDescription": "Full-stack travel booking platform with destination listings, tour packages, and enquiry management",
+      "description": "A full-stack tours and travels web application built with Next.js and TypeScript. Features destination listings, tour package browsing, itinerary details, and a booking enquiry flow — deployed live on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/tours-thumb.jpg",
+      "images": [
+        "/images/projects/tours-1.jpg",
+        "/images/projects/tours-2.jpg"
+      ],
+      "liveUrl": "https://tours-travels-rust.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/tours-travels",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Travel agencies rely on manual enquiries and outdated brochure sites that fail to showcase destinations effectively or capture leads digitally.",
+        "solution": "Built a modern travel platform where users can explore destinations, browse curated tour packages with itineraries, and submit booking enquiries — all in one seamless experience.",
+        "approach": [
+          "Designed destination listing pages with imagery, highlights, and travel details",
+          "Built tour package cards with pricing, duration, inclusions, and itinerary breakdowns",
+          "Implemented a booking enquiry form with destination and date selection",
+          "Used Next.js App Router with TypeScript for type-safe, statically generated pages",
+          "Deployed on Vercel with a responsive Tailwind CSS UI optimised for visual storytelling"
+        ],
+        "outcome": "A live travel booking platform at tours-travels-rust.vercel.app that gives travel agencies a modern, lead-generating web presence with rich destination content.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Domain", "value": "Travel" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "gym-webapp",
+      "title": "IronEdge — Gym & Fitness Platform",
+      "shortDescription": "Modern gym website with membership plans, class schedules, trainer profiles, and online sign-up",
+      "description": "A modern gym and fitness web application built with Next.js and TypeScript. Features membership plan listings, class schedules, trainer profiles, and an online sign-up flow — deployed live as IronEdge on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/gym-thumb.jpg",
+      "images": ["/images/projects/gym-1.jpg", "/images/projects/gym-2.jpg"],
+      "liveUrl": "https://gym-ironedge.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/gym-webapp",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Gyms and fitness studios lack a professional digital presence to showcase their services, trainers, and membership options — losing potential members to competitors with better websites.",
+        "solution": "Built a high-energy gym platform with membership plan comparisons, class timetables, trainer profiles, and a streamlined sign-up flow to convert visitors into members.",
+        "approach": [
+          "Designed membership plan cards with feature comparisons and pricing tiers",
+          "Built a class schedule section with day-wise timetable and category filters",
+          "Created trainer profile pages with specialisations and experience details",
+          "Implemented an online sign-up flow for membership enquiries",
+          "Used Next.js App Router with TypeScript for fast, statically generated pages deployed on Vercel"
+        ],
+        "outcome": "A live, production-deployed gym platform at gym-ironedge.vercel.app that gives fitness businesses a bold, conversion-focused web presence.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Brand", "value": "IronEdge" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "clinic-webapp",
+      "title": "Clinic Webapp — Healthcare Appointment Platform",
+      "shortDescription": "Full-stack clinic management platform with doctor listings, appointment booking, and patient management",
+      "description": "A full-stack healthcare clinic web application built with Next.js and TypeScript. Features doctor profiles, service listings, appointment booking flow, and a patient-facing dashboard — deployed live on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/clinic-thumb.jpg",
+      "images": [
+        "/images/projects/clinic-1.jpg",
+        "/images/projects/clinic-2.jpg"
+      ],
+      "liveUrl": "https://clinic-psoni.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/clinic-webapp",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Small clinics manage appointments manually via phone or walk-ins, leading to scheduling conflicts, long wait times, and no digital record of patient interactions.",
+        "solution": "Built a modern clinic platform where patients can browse doctors, view available slots, and book appointments online — while the clinic gets a structured view of all bookings.",
+        "approach": [
+          "Designed doctor profile pages with specialisation, availability, and contact details",
+          "Built an appointment booking flow with date and time slot selection",
+          "Implemented a patient-facing dashboard to view and manage upcoming appointments",
+          "Used Next.js App Router with TypeScript for type-safe, server-rendered pages",
+          "Deployed on Vercel with a clean, accessible Tailwind CSS UI"
+        ],
+        "outcome": "A live clinic management platform at clinic-psoni.vercel.app that digitises the end-to-end appointment experience for both patients and clinic staff.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Domain", "value": "Healthcare" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
+    },
+    {
+      "slug": "salon-webapp",
+      "title": "Salon Webapp — Booking & Management Platform",
+      "shortDescription": "Full-stack salon booking platform with service listings, appointment scheduling, and admin management",
+      "description": "A full-stack salon booking and management web application built with Next.js and TypeScript. Features service listings, appointment scheduling, admin dashboard for managing bookings, and a clean responsive UI with Tailwind CSS.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+      "thumbnail": "/images/projects/salon-thumb.jpg",
+      "images": [
+        "/images/projects/salon-1.jpg",
+        "/images/projects/salon-2.jpg"
+      ],
+      "liveUrl": "https://salon-webapp-eta.vercel.app/",
+      "repoUrl": "https://github.com/prabhatsn1/salon_webapp",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Salons rely on phone calls and walk-ins for bookings, leading to scheduling conflicts, missed appointments, and no visibility into daily operations.",
+        "solution": "Built a full-stack booking platform where clients can browse services and book appointments online, while admins manage schedules through a dedicated dashboard.",
+        "approach": [
+          "Designed service listing pages with pricing and duration details",
+          "Built appointment scheduling flow with date/time slot selection",
+          "Implemented admin dashboard for viewing and managing bookings",
+          "Used MongoDB for persistent booking and service data storage",
+          "Deployed on Vercel with a fully responsive Tailwind CSS UI"
+        ],
+        "outcome": "A production-ready salon management platform that streamlines the booking experience for both clients and salon staff.",
+        "metrics": [
+          { "label": "Stack", "value": "Next.js" },
+          { "label": "Database", "value": "MongoDB" },
+          { "label": "Styling", "value": "Tailwind" },
+          { "label": "Type Safe", "value": "TypeScript" }
+        ]
+      }
+    },
+    {
       "slug": "e-auction",
       "title": "E-Auction Platform",
-      "shortDescription": "Online auction platform with real-time bidding, authentication, and CRUD operations",
-      "description": "A full-stack online auction platform built with Next.js and TypeScript. Features auction creation and editing, real-time bidding system, user authentication, and a responsive UI with Tailwind CSS.",
+      "shortDescription": "Full-stack online auction platform with real-time bidding, authentication, and CRUD operations",
+      "description": "A full-stack online auction platform built with Next.js and TypeScript. Features auction listing creation and editing, a real-time bidding system, user authentication, bid history tracking, and a fully responsive UI with Tailwind CSS and MongoDB as the backend database.",
       "category": "Web App",
       "tech": ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
       "thumbnail": "/images/projects/auction-thumb.jpg",
-      "images": ["/images/projects/auction-1.jpg"],
+      "images": [
+        "/images/projects/auction-1.jpg",
+        "/images/projects/auction-2.jpg"
+      ],
+      "liveUrl": "",
       "repoUrl": "https://github.com/prabhatsn1/e-auction",
-      "featured": false
+      "featured": false,
+      "caseStudy": {
+        "problem": "Traditional auction processes are manual, location-bound, and lack transparency — bidders miss opportunities and sellers have no real-time visibility into bid activity.",
+        "solution": "Built a full-stack auction platform where sellers can list items with starting bids and deadlines, and buyers can place competitive bids in real time with full bid history.",
+        "approach": [
+          "Implemented auction listing CRUD — create, edit, close, and delete auctions",
+          "Built real-time bidding system with bid validation and outbid detection",
+          "Added user authentication to scope bids and listings per account",
+          "Stored bid history and auction state in MongoDB with Mongoose schemas",
+          "Designed a responsive UI with Tailwind CSS for seamless desktop and mobile experience"
+        ],
+        "outcome": "A production-ready auction platform with end-to-end bidding flow, authenticated user sessions, and persistent auction and bid data.",
+        "metrics": [
+          { "label": "Stack", "value": "Next.js" },
+          { "label": "Database", "value": "MongoDB" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Styling", "value": "Tailwind" }
+        ]
+      }
+    },
+    {
+      "slug": "cafe-webapp",
+      "title": "Café Webapp — Restaurant & Menu Platform",
+      "shortDescription": "Modern café website with menu listings, online ordering flow, and a clean responsive UI",
+      "description": "A modern café and restaurant web application built with Next.js and TypeScript. Features a beautifully designed menu with category filtering, an online ordering flow, and a fully responsive layout — deployed live on Vercel.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/cafe-thumb.jpg",
+      "images": ["/images/projects/cafe-1.jpg", "/images/projects/cafe-2.jpg"],
+      "liveUrl": "https://cafe-webapp-gamma.vercel.app",
+      "repoUrl": "https://github.com/prabhatsn1/cafe-webapp",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Small cafés and restaurants lack an affordable, modern web presence — most rely on outdated static sites or third-party platforms that don't reflect their brand.",
+        "solution": "Built a clean, fast Next.js café website with a categorised menu, ordering flow, and a polished UI that any café can adapt as their digital storefront.",
+        "approach": [
+          "Designed a categorised menu page with item cards showing name, description, and price",
+          "Built an ordering flow with item selection and order summary",
+          "Used Next.js App Router with static generation for fast page loads",
+          "Styled with Tailwind CSS for a warm, on-brand aesthetic",
+          "Deployed on Vercel with zero-config CI/CD"
+        ],
+        "outcome": "A live, production-deployed café platform showcasing a complete restaurant web experience with menu browsing and ordering — accessible at cafe-webapp-gamma.vercel.app.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Styling", "value": "Tailwind" },
+          { "label": "Deploy", "value": "Vercel" }
+        ]
+      }
     },
     {
       "slug": "email-sender",
@@ -396,6 +784,39 @@
       "liveUrl": "https://email-sender-psoni.vercel.app",
       "repoUrl": "https://github.com/prabhatsn1/email-sender",
       "featured": false
+    },
+    {
+      "slug": "toggle-dark-mode-extension",
+      "title": "Toggle Dark Mode — Browser Extension",
+      "shortDescription": "Chrome extension that injects dark mode on any website with a single click",
+      "description": "A lightweight Chrome browser extension built with vanilla JavaScript and CSS that toggles dark mode on any website. Uses CSS filter inversion and hue-rotation to apply a dark theme universally, with state persistence across page navigations via Chrome's storage API.",
+      "category": "Browser Extension",
+      "tech": ["JavaScript", "CSS", "HTML", "Chrome Extensions API"],
+      "thumbnail": "/images/projects/darkmode-thumb.jpg",
+      "images": [
+        "/images/projects/darkmode-1.jpg",
+        "/images/projects/darkmode-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/toggle-dark-mode-extension",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Many websites don't support dark mode natively, forcing users to browse bright, eye-straining interfaces — especially at night or in low-light environments.",
+        "solution": "Built a Chrome extension that injects a CSS dark mode filter on any webpage with a single toolbar click, persisting the preference per site using Chrome's storage API.",
+        "approach": [
+          "Used CSS filter: invert(1) hue-rotate(180deg) to apply dark mode universally across any site",
+          "Built a content script to inject and toggle the filter on the active tab's document",
+          "Persisted dark mode state per domain using chrome.storage.local",
+          "Designed a minimal popup UI with a toggle switch for one-click activation",
+          "Added a Python utility script for extension packaging and automation"
+        ],
+        "outcome": "A zero-dependency browser extension that brings dark mode to any website instantly, with per-site memory so preferences are retained across sessions.",
+        "metrics": [
+          { "label": "Type", "value": "Extension" },
+          { "label": "Language", "value": "JS" },
+          { "label": "Browser", "value": "Chrome" },
+          { "label": "Size", "value": "~20 KB" }
+        ]
+      }
     },
     {
       "slug": "storyteller-ai",
