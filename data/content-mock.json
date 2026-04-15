@@ -486,7 +486,7 @@
         "/images/projects/ayurfresh-1.jpg",
         "/images/projects/ayurfresh-2.jpg"
       ],
-      "liveUrl": "https://ayurfresh-web.vercel.app",
+      "liveUrl": "https://ayurfresh-demo.vercel.app/",
       "repoUrl": "https://github.com/prabhatsn1/ayurfresh-web",
       "featured": false,
       "caseStudy": {
@@ -719,7 +719,7 @@
         "/images/projects/auction-1.jpg",
         "/images/projects/auction-2.jpg"
       ],
-      "liveUrl": "",
+      "liveUrl": "https://e-auction-ten.vercel.app/",
       "repoUrl": "https://github.com/prabhatsn1/e-auction",
       "featured": false,
       "caseStudy": {
