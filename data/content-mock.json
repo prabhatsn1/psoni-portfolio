@@ -862,6 +862,51 @@
       }
     },
     {
+      "slug": "coaching-web-app",
+      "title": "Coaching Web App — Online Learning Platform",
+      "shortDescription": "Full-stack coaching and online learning platform with course listings, student management, and enrollment flow",
+      "description": "A full-stack online coaching web application built with Next.js and TypeScript. Features course listings, instructor profiles, student enrollment flow, and a clean responsive UI — built to help coaching institutes establish a modern digital presence.",
+      "category": "Web App",
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "thumbnail": "/images/projects/coaching-thumb.jpg",
+      "images": [
+        "/images/projects/coaching-1.jpg",
+        "/images/projects/coaching-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/coaching-web-app",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Coaching institutes rely on word-of-mouth and offline registrations, lacking a professional web presence to showcase courses, instructors, and drive online enrollments.",
+        "solution": "Built a modern coaching platform where students can browse courses, view instructor profiles, and enroll online — giving institutes a conversion-focused digital storefront.",
+        "approach": [
+          "Designed course listing pages with subject categories, duration, and pricing",
+          "Built instructor profile pages with qualifications and course associations",
+          "Implemented a student enrollment and inquiry flow",
+          "Used Next.js App Router with TypeScript for type-safe, statically generated pages",
+          "Styled with Tailwind CSS for a clean, professional educational aesthetic"
+        ],
+        "outcome": "A production-ready coaching platform that gives educational institutes a modern web presence with structured course and instructor information.",
+        "metrics": [
+          { "label": "Framework", "value": "Next.js" },
+          { "label": "Language", "value": "TypeScript" },
+          { "label": "Domain", "value": "Education" },
+          { "label": "Styling", "value": "Tailwind" }
+        ]
+      }
+    },
+    {
+      "slug": "dice",
+      "title": "Dice — Dice Rolling Game",
+      "shortDescription": "A simple dice rolling game built with C# and Unity",
+      "description": "A dice rolling game built with C# and Unity. Players can roll dice and see the results in a fun, interactive 3D environment.",
+      "category": "Game",
+      "tech": ["C#", "Unity"],
+      "thumbnail": "/images/projects/dice-thumb.jpg",
+      "images": ["/images/projects/dice-1.jpg"],
+      "repoUrl": "https://github.com/prabhatsn1/Dice",
+      "featured": false
+    },
+    {
       "slug": "portfolio-website",
       "title": "Portfolio Website",
       "shortDescription": "Animated portfolio site built with Next.js and Framer Motion",
