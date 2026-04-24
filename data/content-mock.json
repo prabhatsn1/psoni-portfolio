@@ -786,6 +786,46 @@
       "featured": false
     },
     {
+      "slug": "job-autofill-extension",
+      "title": "JobFill - Intelligent Job Autofill Extension",
+      "shortDescription": "Manifest V3 Chrome extension that autofills job applications using local profile data and heuristic field matching",
+      "description": "A production-ready Chrome extension for automatically filling job application forms using locally stored profile data. Built with Manifest V3 architecture, heuristic confidence-based field matching, domain overrides, and in-browser PDF/DOCX resume parsing with no user data leaving the device.",
+      "category": "Browser Extension",
+      "tech": [
+        "JavaScript",
+        "Chrome Extensions API",
+        "Manifest V3",
+        "Webpack",
+        "PDF.js",
+        "Mammoth.js"
+      ],
+      "thumbnail": "/images/projects/jobfill-thumb.jpg",
+      "images": [
+        "/images/projects/jobfill-1.jpg",
+        "/images/projects/jobfill-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/job-autofill-extension",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Job seekers waste significant time repeatedly filling the same application fields across different hiring portals, and generic browser autofill often struggles with custom forms and inconsistent field labels.",
+        "solution": "Built a Manifest V3 Chrome extension that stores structured job-profile data locally, scans application forms in the browser, and fills fields using heuristic scoring, confidence tiers, and per-domain overrides.",
+        "approach": [
+          "Designed a modular extension architecture with popup, options UI, service worker, content script, and shared storage utilities",
+          "Implemented fingerprint-based field matching using labels, placeholders, autocomplete hints, nearby text, regex scoring, and confidence thresholds",
+          "Added domain-specific override mappings so known hiring sites can bypass heuristic ambiguity with exact field-to-profile resolution",
+          "Integrated fully client-side PDF.js and Mammoth.js resume parsing to extract candidate details without sending documents to a server",
+          "Handled SPA navigation and dynamic job portals with MutationObserver-based rescans and review highlights for medium-confidence matches"
+        ],
+        "outcome": "A privacy-first browser extension that speeds up repetitive job applications while keeping all profile and resume data on-device, with smarter matching than standard browser autofill.",
+        "metrics": [
+          { "label": "Platform", "value": "Chrome MV3" },
+          { "label": "Storage", "value": "Local Only" },
+          { "label": "Matchers", "value": "18+" },
+          { "label": "Shortcut", "value": "Alt+Shift+F" }
+        ]
+      }
+    },
+    {
       "slug": "toggle-dark-mode-extension",
       "title": "Toggle Dark Mode — Browser Extension",
       "shortDescription": "Chrome extension that injects dark mode on any website with a single click",

@@ -8,12 +8,14 @@ import type { Project } from "@/types/content";
 import GlowCard from "@/components/ui/GlowCard";
 import { perspective3D, staggerContainer } from "@/lib/motion";
 
-const categories = ["All", "Web App", "Mobile App"];
-
 export default function ProjectGrid({ projects }: { projects: Project[] }) {
   const [filter, setFilter] = useState("All");
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const categories = [
+    "All",
+    ...new Set(projects.map((project) => project.category)),
+  ];
 
   const filtered =
     filter === "All" ? projects : projects.filter((p) => p.category === filter);
