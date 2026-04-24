@@ -826,6 +826,46 @@
       }
     },
     {
+      "slug": "codebase-analyzer",
+      "title": "Codebase Analyzer",
+      "shortDescription": "Agentic AI CLI that explores repositories, uses code and git tools, and explains software architecture",
+      "description": "An agentic AI codebase analysis tool that autonomously explores repositories, reads high-signal files, parses source code, inspects Git history, and generates developer-friendly architecture explanations. Supports OpenAI, Azure OpenAI, and HuggingFace providers through a CLI workflow for full analysis, targeted questions, and interactive chat.",
+      "category": "Developer Tool",
+      "tech": [
+        "Python",
+        "OpenAI",
+        "Azure OpenAI",
+        "HuggingFace",
+        "Click",
+        "Git"
+      ],
+      "thumbnail": "/images/projects/codebase-analyzer-thumb.jpg",
+      "images": [
+        "/images/projects/codebase-analyzer-1.jpg",
+        "/images/projects/codebase-analyzer-2.jpg"
+      ],
+      "repoUrl": "https://github.com/prabhatsn1/codebase-analyzer",
+      "featured": false,
+      "caseStudy": {
+        "problem": "Developers joining an unfamiliar codebase often spend hours manually tracing folders, entry points, data flow, and Git history before they can answer even basic architectural questions with confidence.",
+        "solution": "Built an agentic AI CLI that combines an LLM-driven exploration loop with repository tools for filesystem inspection, search, AST parsing, and Git metadata so it can autonomously analyze a repo and explain how it works.",
+        "approach": [
+          "Designed an agent loop where the model decides which tools to call next, when to dig deeper, and when it has enough context to answer",
+          "Implemented repository tooling for directory traversal, file reading, symbol search, regex-based code analysis, and Git metadata extraction",
+          "Added structural parsing across multiple languages, using Python AST where available and regex-based analyzers for JS/TS, Java, Go, and Rust",
+          "Built provider-agnostic LLM integration supporting OpenAI, Azure OpenAI, and HuggingFace through environment-driven configuration",
+          "Exposed the workflow through CLI commands for full repository analysis, question answering, and interactive chat sessions"
+        ],
+        "outcome": "A practical developer productivity tool that shortens onboarding and architectural discovery by turning raw repository structure, code, and Git history into concise, navigable explanations.",
+        "metrics": [
+          { "label": "Providers", "value": "3" },
+          { "label": "Modes", "value": "Analyze/Ask/Chat" },
+          { "label": "Languages", "value": "5+" },
+          { "label": "Interface", "value": "CLI" }
+        ]
+      }
+    },
+    {
       "slug": "toggle-dark-mode-extension",
       "title": "Toggle Dark Mode — Browser Extension",
       "shortDescription": "Chrome extension that injects dark mode on any website with a single click",
